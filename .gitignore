@@ -6,3 +6,5 @@
 # *.pdf
 *.lot
 .DS_Store
+
+.vscode
