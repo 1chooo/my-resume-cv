@@ -8,7 +8,7 @@
 
 \documentclass[a4paper,11pt]{article}
 \usepackage{latexsym}
-\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{float}
 \usepackage{ragged2e}
 \usepackage[empty]{fullpage}
@@ -114,11 +114,11 @@
 \newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
 \newcommand{\cvsection}[1]{%
-\vspace{2mm}
-\begin{tcolorbox}
-    \textbf{\large #1}
-\end{tcolorbox}
-    \vspace{-4mm}
+    \vspace{2mm}
+    \begin{tcolorbox}
+        \textbf{\large #1}
+    \end{tcolorbox}
+        \vspace{-4mm}
 }
 
 \newcolumntype{L}{>{\raggedright\arraybackslash}X}%
@@ -136,139 +136,177 @@
 \newcommand{\emaila}{hugo970217@gmail.com} %Email 1
 \newcommand{\emailb}{lcho0127@g.ncu.edu.tw} %Email 2
 \newcommand{\myScore}{}
-% \newcommand{\myScore}{GPA: 3.01/4.30; Rank: 25/33}
+% \newcommand{\myScore}{GPA: 3.08/4.30; Rank: 25/33}
 
 
 \begin{document}
 \fontfamily{cmr}\selectfont
+
 %----------HEADING-----------------
+\begin{center}
+    \textbf{\huge \name}
+\end{center}
 
+\begin{center}
+    % \href{https://www.linkedin.com/in/1chooo/}{\raisebox{0.0\height}{\textcolor{gray}{\footnotesize \faMapMarker}}\ 
+    % \textcolor{gray}{Taipei, Taiwan}}
+    \href{tel:+886-\phone}{\raisebox{0.0\height}{\textcolor{gray}{\footnotesize \faPhone}}\ 
+    \textcolor{gray}{+886-909-001068 |}}
+    \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \textcolor{gray}{\faEnvelope}}\ 
+    \textcolor{gray}{\emaila} |}
+    \href{https://1chooo-github-io.vercel.app/}{\raisebox{0.0\height}{\textcolor{gray}{\footnotesize \faGlobe}}\ 
+    \textcolor{gray}{Portfolio |}}
+    \href{https://github.com/1chooo}{\raisebox{0.0\height}{\textcolor{gray}{\footnotesize \faGithub}}\ 
+    \textcolor{gray}{1chooo |}}
+    \href{https://www.linkedin.com/in/1chooo/}{\raisebox{0.0\height}{\textcolor{gray}{\footnotesize \faLinkedin}}\ 
+    \textcolor{gray}{Hugo ChunHo Lin}}
+\end{center}
+  
 
-% \parbox{2.35cm}{%
-% % \includegraphics[width=2cm,clip]{IMG_4754.jpg}
-% }
-\parbox{\textwidth}{
-\begin{tabularx}{\linewidth}{L r} \\
-  \textbf{\huge \name} & {\raisebox{0.0\height}{\footnotesize \faPhone}\ +886-\phone}\\ The student who possesses a true passion for the CS field.
-   & \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}} \\
-  XinYi, Taipei, Taiwan. & \href{https://1chooo-github-io.vercel.app/}{\raisebox{0.0\height}{\footnotesize \faGlobe}\ {1chooo's Portfolio}}\\
-  {Major: \course} &  \href{https://github.com/1chooo}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {1chooo (Hugo ChunHo Lin)}} \\
-  {Minor Specialty: Dept. of CSIE, NCU.} & \href{https://www.linkedin.com/in/1chooo/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {Hugo ChunHo Lin}}
-\end{tabularx}
-}
-% \parbox{3.0cm}{%
-% \flushright \includegraphics[width=2cm,clip]{nitp_logo.png}
-% }
-
-\vspace{-3.0mm}
+% \vspace{-3.0mm}
 
 %-----------EDUCATION-----------------
 \section{\textcolor{olive}{\textbf{Education}}}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      { National Central University}{\myScore}
-      {}{Sep. 2020 - present}
-      % {Junior Student who possesses a true passion for the CS field.}{Sep. 2020 - present}
-      \vspace{-5.0mm}
-      \resumeItemListStart
-        \item {\textbf{Major:} Dept. of Atmospheric Science; \textbf{Minor Specialty:} Dept. of CSIE}
-        \item {\textbf{Course:} Alg, DS, Assembly, PPL, Degital Design, Weather and AI, etc.}
-      \resumeItemListEnd      
-  \resumeSubHeadingListEnd
+	\resumeSubHeadingListStart
+		\resumeSubheading
+			{ National Central University}
+            {\myScore}
+			{Atmospheric Science, Computer Science \& Information Engineering}
+            {Sep. 2020 - present}
+		
+		\vspace{-1.0mm}
+		
+		\resumeItemListStart
+			% \item {\textbf{Major:} Dept. of Atmospheric Science; \textbf{Minor Specialty:} Dept. of CSIE}
+			\item {
+                \textbf{Relevant Courses:}{
+                    The Attack and Defense of Computers,
+                    Principles of Programming Languages,
+                    Computer Network,
+                    Algorithmics, 
+                    Data Structures, 
+                    Assembly Language and System Programming, 
+                    Degital Design.
+                }
+            }
+		\resumeItemListEnd
+		  
+	\resumeSubHeadingListEnd
 
 \vspace{-6.5mm}
 
 %-----------EXPERIENCE-----------------
 \section{\textcolor{olive}{\textbf{Professional Experience}}}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-    { Amazon Web Services (AWS)}{}
-    {Cloud Student Ambassador - Technical Support}{Aug. 2023 - present}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            { Amazon Web Services (AWS)}
+            {}
+            {Cloud Student Ambassador - Technical Support}
+            {Aug. 2023 - present}
 
-    \vspace{-2.0mm}
-    \resumeItemListStart
-        % \item {Workshops}
-        % \item {Work description line 2}
-    \resumeItemListEnd
-    
-    \vspace{-2.0mm}
-    
-    \resumeSubheading
-    { Pegatron Corporation}{}
-    {Software Engineer Summer Intern}{Jul. 2023 - Aug. 2023}
-    \vspace{-2.0mm}
-    
-    \resumeItemListStart
-        \item {\textbf{Smart Robot Smart World:} Prompt-based Learning for manipulating with the Visual-World Robot.}
-        \item {By employing Prompt Engineering, I have increased support from 2 to 11 scenarios, a \textbf{450\%} improvement.}
-        \item {The model accuracy has increased to \textbf{80\%} and now supports four objects, up from two.}
-    \resumeItemListEnd
-    
-    \vspace{-2.0mm}
-    
-    \resumeSubheading
-    { National Central University}{}
-    {Teaching Assistant, Website Administrator}{}
+            \vspace{-2.0mm}
 
-    \vspace{-2.0mm}
-    
-    \resumeItemListStart
-        \item {\textbf{Course:} Programmiing Python, Weather and Artificial Intelligence, Freshman English, Student Service-Learning.}
-        \item {Launch a project aimed at developing a system to manage and track student progress.}
-    \resumeItemListEnd
-    
-    % \vspace{-3.0mm}
-      
-  \resumeSubHeadingListEnd
+            \resumeItemListStart
+                % \item {Workshops}
+                % \item {Work description line 2}
+            \resumeItemListEnd
+
+        \vspace{-2.0mm}
+
+        \resumeSubheading
+            { Pegatron Corporation}
+            {}
+            {Software Engineer Summer Intern}
+            {Jul. 2023 - Aug. 2023}
+
+            \vspace{-2.0mm}
+
+            \resumeItemListStart
+                \item {\textbf{Smart Robot Smart World:} Prompt-based Learning for manipulating with the Visual-World Robot.}
+                \item {By employing Prompt Engineering, I have increased support from 2 to 11 scenarios, a \textbf{450\%} improvement.}
+                \item {The model accuracy has increased to \textbf{80\%} and now supports four objects, up from two.}
+            \resumeItemListEnd
+
+        \vspace{-2.0mm}
+
+        \resumeSubheading
+            { National Central University}
+            {}
+            {Teaching Assistant, Website Administrator}
+            {}
+
+            \vspace{-2.0mm}
+
+            \resumeItemListStart
+                \item {\textbf{Course:} Programmiing Python, Weather and Artificial Intelligence, Freshman English, Student Service-Learning.}
+                \item {Launch a project aimed at developing a system to manage and track student progress.}
+            \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
   
 \vspace{-6.5mm}
 
 \section{\textcolor{olive}{\textbf{Extracurricular Activity}}}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      { NCUFresh Team (NCUBlog)\hspace{0.5em} \href{https://github.com/ncufresh}{\faGithub} \hspace{0.2em} \href{https://22.ncufresh.ncu.edu.tw/blog/}{\faDesktop}} {}%Project Name
-      {Website developer team for the incoming freshmen admitting to NCU.} %Project Name, Location Name
-      {Dec. 2021 - Jul. 2022} %Event Dates
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            { NCUFresh Team (NCUBlog)
+                \hspace{0.5em} 
+                \href{https://github.com/ncufresh}{\faGithub} 
+                \hspace{0.2em} 
+                \href{https://22.ncufresh.ncu.edu.tw/blog/}{\faDesktop}
+            } 
+            {}%Project Name
+            {Website developer team for the incoming freshmen admitting to NCU.} %Project Name, Location Name
+            {Dec. 2021 - Jul. 2022} %Event Dates
 
-      \vspace{-2mm}
-      
-      \resumeItemListStart
-        \item {The essential experience of manage larger projects with teammates.}
-        \item {Frontend skills: UI/UX, Figma.}
-        \item {Teamwork: leadership, meeting arrangement, facilitating communication, project demo.}
-        \item {Marketing: increase social media reach, content of films and articles.}
-      \resumeItemListEnd
-    
-    % \vspace{-3.0mm}
-    
-    
-    \resumeSubheading
-      { NCUApp Team (UI/UX \& Marketing)\hspace{0.5em} \href{https://github.com/NCUAppTeam}{\faGithub} \hspace{0.2em} \href{https://ncuappteam.github.io/}{\faDesktop}} {}%Project Name
-      {The app developer team opens to all members of the NCU community.} %Project Name, Location Name
-      {Mar. 2023 - present} %Event Dates
+            \vspace{-2mm}
 
-      \vspace{-2mm}
+            \resumeItemListStart
+                \item {The essential experience of manage larger projects with teammates.}
+                \item {Frontend skills: UI/UX, Figma.}
+                \item {Teamwork: leadership, meeting arrangement, facilitating communication, project demo.}
+                \item {Marketing: increase social media reach, content of films and articles.}
+            \resumeItemListEnd
 
-      \resumeItemListStart
-        \item {The crucial experience managing existing projects with teammates to ensure that all functions are fully developed.}
-        \item {Frontend skills: React Native, UI/UX, Figma.}
-        \item {Marketing: product listings, map functionality, daily scheduling.}
-      \resumeItemListEnd
-    % \vspace{-3.0mm}
-    
-    
-  %   \resumeSubheading
-  %     { NCUAS Basketball Team (Co-captain)}{}
-  %     {Basketball Team Co-captain in my department, Dept. ATM, NCU.}{Aug. 2022 - Jun. 2023}
-  %     \vspace{-2.0mm}
-  %     \resumeItemListStart
-  %   % \item {Work description line 1}
-  %   % \item {Work description line 2}
-  %   \resumeItemListEnd
-      
-  % \resumeSubHeadingListEnd
-      
-  \resumeSubHeadingListEnd
+        % \vspace{-3.0mm}
+
+
+        \resumeSubheading
+            { NCUApp Team (UI/UX \& Marketing)
+                \hspace{0.5em} 
+                \href{https://github.com/NCUAppTeam}{\faGithub} 
+                \hspace{0.2em} 
+                \href{https://ncuappteam.github.io/}{\faDesktop}
+            } 
+            {}%Project Name
+            {The app developer team opens to all members of the NCU community.} %Project Name, Location Name
+            {Mar. 2023 - present} %Event Dates
+
+            \vspace{-2mm}
+
+            \resumeItemListStart
+                \item {The crucial experience managing existing projects with teammates to ensure that all functions are fully developed.}
+                \item {Frontend skills: React Native, UI/UX, Figma.}
+                \item {Marketing: product listings, map functionality, daily scheduling.}
+            \resumeItemListEnd
+
+        % \vspace{-3.0mm}
+
+
+        % \resumeSubheading
+        %     { NCUAS Basketball Team (Co-captain)}
+        %     {}
+        %     {Basketball Team Co-captain in my department, Dept. ATM, NCU.}
+        %     {Aug. 2022 - Jun. 2023}
+
+        %     \vspace{-2.0mm}
+
+        %     \resumeItemListStart
+        %         % \item {Work description line 1}
+        %         % \item {Work description line 2}
+        %     \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
 
 \vspace{-6.5mm}
 
@@ -276,7 +314,12 @@
 \section{\textcolor{olive}{\textbf{Selected Projects}}}
     \resumeSubHeadingListStart
         \resumeProject
-            { SIMPLE AI: Multi-User Machine Learning Education Platform \hspace{0.5em} \href{https://github.com/1chooo/simple-ai}{\faGithub} \hspace{0.2em} \href{https://www.youtube.com/watch?v=S0HZJIqVThI}{\faDesktop}} %Project Name
+            { SIMPLE AI: Multi-User Machine Learning Education Platform 
+                \hspace{0.5em} 
+                \href{https://github.com/1chooo/simple-ai}{\faGithub} 
+                \hspace{0.2em} 
+                \href{https://www.youtube.com/watch?v=S0HZJIqVThI}{\faDesktop}
+            } %Project Name
             {Develop a Line BOT utilizing \textbf{S3 and Amazon Recognition services} to enhance familiarity with NCU Campus.} %Project Name, Location Name
             {Aug. 2023} %Event Dates
         
@@ -303,7 +346,6 @@
                 \item {Create an engaging storyline or narrative that enhances user interaction and exploration of the Central Campus.}
             \resumeItemListEnd
         
-        
         % \vspace{-3mm}
     
         \resumeProject
@@ -318,7 +360,7 @@
                 \item {What I have done: Developed a drama on LINE BOT and implemented databases using mySQL and servers. Created APIs to connect clients and the server using the Flask framework.}
             \resumeItemListEnd
             
-        % \vspace{-3mm}
+        \vspace{-3mm}
     
   \resumeSubHeadingListEnd
   
@@ -331,9 +373,9 @@
         \item \textbf{Programming Languages}: Python, c/c++, Java, Assembly, Go, JavaScripts, etc.
         \item \textbf{ML/DL}: Langchain, Keras, Tensorflow, Scikit-learn, Numpy, Pandas, etc.
         \item \textbf{DevOps}: AWS, Git, Docker, Bash, Linux, GitHub Action, mySQL, etc.
-        \item \textbf{Languages}: English, Mandarin(Native).
+        \item \textbf{Communication}: English, Mandarin(Native).
     \end{itemize}
 
 % \vspace{-4.0mm}
-%-------------------------------------------
+
 \end{document}
