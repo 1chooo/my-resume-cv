@@ -108,7 +108,13 @@
 \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
-\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeHeadingSkillStart}{
+    \begin{itemize}[
+        leftmargin=*,
+        itemsep=1.7mm, 
+        rightmargin=2ex
+        ]
+}
 \newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[
     leftmargin=3ex, 
     rightmargin=2ex, 
@@ -144,7 +150,7 @@
 \newcommand{\emaila}{hugo970217@gmail.com} %Email 1
 \newcommand{\emailb}{lcho0127@g.ncu.edu.tw} %Email 2
 \newcommand{\myScore}{}
-% \newcommand{\myScore}{GPA: 3.08/4.30; Rank: 25/33}
+% \newcommand{\myScore}{GPA: 3.11/4.30; Rank: 26/35}
 
 
 \begin{document}
@@ -215,11 +221,27 @@
 %-----------EXPERIENCE-----------------
 \section{\textcolor{olive}{\textbf{Professional Experience}}}
     \resumeSubHeadingListStart
+        % \resumeSubheading
+        %     { Cloud Developer Intern, Amazon Web Services | \textcolor{gray}{\footnotesize{\faMapMarker}} \textcolor{gray}{\footnotesize{Taipei, Taiwan}}}
+        %     {}
+        %     {}
+        %     {Aug. 2023 - Feb. 2024}
+
+        %     \vspace{-6.0mm}
+
+        %     \resumeItemListStart
+        %         \item {Educated \textbf{700+} cloud developers and achieved 96\% of user satisfaction by publishing and lecturing \textbf{2+ technical workshops, 1 UAD} on AWS cloud computing services \textbf{(Lex, Amazon S3, Lambda, API Gateway)}.}
+        %         \item {\textbf{Develop} an \textbf{open-source} project called "\textbf{AWS 101 LINE Bot}" designed for integration with \textbf{AWS 101}. This initiative led to contacting \textbf{LINE Company} and securing the opportunity to organize a visit to the company.}
+        %         \item {\textbf{Technical Support} within the \textbf{Marketing Program} enhances the technical understanding of marketing team members. This involves a detailed \textbf{35+ page} research study accompanied by a comprehensive presentation.}
+        %     \resumeItemListEnd
+
+        % \vspace{-2.0mm}
+
         \resumeSubheading
             { Cloud Ambassador Technical Support, Amazon Web Services | \textcolor{gray}{\footnotesize{\faMapMarker}} \textcolor{gray}{\footnotesize{Taipei, Taiwan}}}
             {}
             {}
-            {Aug. 2023 - present}
+            {Aug. 2023 - Feb. 2024}
 
             \vspace{-6.0mm}
 
@@ -229,18 +251,17 @@
                 \item {\textbf{Technical Support} within the \textbf{Marketing Program} enhances the technical understanding of marketing team members. This involves a detailed \textbf{35+ page} research study accompanied by a comprehensive presentation.}
             \resumeItemListEnd
 
-        \vspace{-1.0mm}
+        \vspace{-2.0mm}
 
         \resumeSubheading
             { Software Engineer Intern, Pegatron Corporation | \textcolor{gray}{\footnotesize{\faMapMarker}} \textcolor{gray}{\footnotesize{Taipei, Taiwan}}}
             {}
-            {}
+            {\textbf{Smart Robot, Smart World:} Prompt-based Learning for manipulating with the Visual-World Robot.}
             {Jul. 2023 - Aug. 2023}
 
-            \vspace{-6.0mm}
+            \vspace{-1.0mm}
 
             \resumeItemListStart
-                \item {\textbf{Smart Robot, Smart World:} Prompt-based Learning for manipulating with the Visual-World Robot.}
                 \item {Implementing \textbf{Prompt Engineering and LangChain} allows the \textbf{NVIDIA Ominerve visual robot} to function through \textbf{speech or text}, leading to an \textbf{83\%} improvement in scenario test support across \textbf{6 to 11} scenarios.}
                 \item {During the \textbf{Proof of Concept (POC)} phase, transform the trained model into a \textbf{Web Application} with a user interface using \textbf{Gradio}, the UI toolkit for the \textbf{FastAPI} framework.}
             \resumeItemListEnd
@@ -270,9 +291,11 @@
         \resumeSubheading
             { Second Place \& Sustainability Special Award, 2023 Weather Hackathon} 
             {
-                \href{https://github.com/1chooo/evolving-beasts}{\faGithub\ Evolving Beasts} 
+                \href{https://github.com/Weather-Shakespeare}{\faGithub\ Weather Shakespeare} 
+                |
+                \href{https://weather-shakespeare.github.io/}{\faDesktop\ Blog} 
             } %Project Name
-            {Backend Developer, Flask, Pytorch, OpenCV, LineBotSDK}%Project Name
+            {Backend Developer, Flask, Pytorch, OpenCV, LineBotSDK} % Project Name
             % {Website developer team for the incoming freshmen admitting to NCU.} %Project Name, Location Name
             {May. 2023 - Aug. 2023} %Event Dates
     
@@ -292,7 +315,7 @@
                 |
                 \href{https://22.ncufresh.ncu.edu.tw/blog/}{\textcolor{black}{\faDesktop}\ NCUBlog} 
             }%Project Name
-            {Website UI/UX developer, Vue.js, UI/UX, Figma}%Project Name
+            {Website UI/UX developer, Vue.js, UI/UX, Figma} % Project Name
             % {Website developer team for the incoming freshmen admitting to NCU.} %Project Name, Location Name
             {Dec. 2021 - Jul. 2022} %Event Dates
 
@@ -301,36 +324,6 @@
             \resumeItemListStart
                 \item {Curated \textbf{50+} articles across various themes including fun, talk, life, and storytelling for the blog page, \textbf{integrated the Notion API with Vue.js}, and achieved an average of \textbf{1,000+ views} per article within the first month.}
             \resumeItemListEnd
-
-        % \resumeSubheading
-        %     { NCUApp: Hope to make National Central University great again!}
-        %     {
-        %         \href{https://github.com/NCUAppTeam}{\faGithub\ NCUAppTeam} 
-        %     }%Project Name
-        %     {APP UI/UX developer, Marketing Support} %Project Name, Location Name
-        %     {Mar. 2023 - present} %Event Dates
-
-        %     \vspace{-1.0mm}
-
-        %     \resumeItemListStart
-        %         \item {Lead 5 members Team to develop a cross-platform APP for NCU students.}
-        %         \item {Guided team in Figma for collaborative style template design.}
-        %     \resumeItemListEnd
-
-        % \vspace{-2.0mm}
-
-        % \resumeSubheading
-        %     { NCUAS Basketball Team (Co-captain)}
-        %     {}
-        %     {Basketball Team Co-captain in my department, Dept. ATM, NCU.}
-        %     {Aug. 2022 - Jun. 2023}
-
-        %     \vspace{-2.0mm}
-
-        %     \resumeItemListStart
-        %         % \item {Work description line 1}
-        %         % \item {Work description line 2}
-        %     \resumeItemListEnd
 
     \resumeSubHeadingListEnd
 
@@ -344,9 +337,9 @@
             {
                 \href{https://github.com/1chooo/simple-ai}{\faGithub\ SIMPLE AI} 
                 |
-                \href{https://1chooo.github.io/simple-ai/}{\textcolor{black}{\faDesktop}\ SIMPLE AI} 
+                \href{https://1chooo.github.io/simple-ai/}{\textcolor{black}{\faDesktop}\ Docs} 
             } %Project Name
-            {Fullstack Developer, FastAPI, Gradio, Docker}%Project Name
+            {Fullstack Developer, FastAPI, Gradio, Docker} % Project Name
             % {Website developer team for the incoming freshmen admitting to NCU.} %Project Name, Location Name
             {Aug. 2023 - present} %Event Dates
 
@@ -357,6 +350,26 @@
                 \item {Applied in \textbf{two courses} as a TA: Programming Python and Weather and Artiﬁcial Intelligence.}
             \resumeItemListEnd
 
+        \vspace{-2.0mm}
+            
+        \resumeSubheading
+            { AnonChat: Online Anonymous Multi-User Message Board} 
+            {
+                \href{https://github.com/1chooo/anon-chat}{\faGithub\ AnonChat} 
+                |
+                \href{https://1chooo.github.io/anon-chat/}{\textcolor{black}{\faDesktop}\ Docs} 
+            } %Project Name
+            {Fullstack Developer, Go, Socket, TCP, React, Typescripts} % Project Name
+            % {Website developer team for the incoming freshmen admitting to NCU.} %Project Name, Location Name
+            {Oct. 2023 - Dec. 2023} %Event Dates
+            
+            \vspace{-1.0mm}
+            
+            \resumeItemListStart
+                \item {Training Model with Amazon Recognition and storing training data to AWS S3.}
+                \item {Integrating with Line BOT using \textbf{Python Line Bot SDK and Flask}.}
+                \item {Create an engaging storyline or narrative that enhances user interaction and exploration of the Central Campus.}
+            \resumeItemListEnd
         \vspace{-2.0mm}
 
         % \resumeSubheading
@@ -377,49 +390,32 @@
         %         \item {}
         %         \item {}
         %     \resumeItemListEnd
-
-    
+            
+            
         % \resumeSubheading
-        %     { Evolving Beasts: Deep Learning Recycling Material Identification Platform} 
+        %     { React vCard Portfolio} 
         %     {
-        %         \href{https://github.com/1chooo/evolving-beasts}{\faGithub\ Evolving Beasts} 
+        %     \href{https://github.com/1chooo/bear-bear}{\faGithub\ BearBear You} 
         %     } %Project Name
-        %     {Software Developer, Data Collecting, Model Training}%Project Name
+        %     {Frontend Developer, React, Typescripts}%Project Name
         %     % {Website developer team for the incoming freshmen admitting to NCU.} %Project Name, Location Name
-        %     {May. 2023 - Aug. 2023} %Event Dates
-    
+        %     {Apr. 2022 - Jun. 2022} %Event Dates
+            
         %     \vspace{-1.0mm}
-    
+            
         %     \resumeItemListStart
-        %         \item {Gain \textbf{up to 100 concurrent users} on launch day.}
-        %         \item {Recognizes PET bottles, aluminum foil packaging, and paper utensils with \textbf{95\%} accuracy.}
-        %         \item {Secured \textbf{second place} and \textbf{a sustainability special award} in the "Weather Hackathon Competition."}
+        %         \item {Training Model with Amazon Recognition and storing training data to AWS S3.}
+        %         \item {Integrating with Line BOT using \textbf{Python Line Bot SDK and Flask}.}
+        %         \item {Create an engaging storyline or narrative that enhances user interaction and exploration of the Central Campus.}
         %     \resumeItemListEnd
-            
-            
-        \resumeSubheading
-            { React vCard Portfolio} 
-            {
-            \href{https://github.com/1chooo/bear-bear}{\faGithub\ BearBear You} 
-            } %Project Name
-            {Frontend Developer, React, Typescripts}%Project Name
-            % {Website developer team for the incoming freshmen admitting to NCU.} %Project Name, Location Name
-            {Apr. 2022 - Jun. 2022} %Event Dates
-            
-            \vspace{-1.0mm}
-            
-            \resumeItemListStart
-                \item {Training Model with Amazon Recognition and storing training data to AWS S3.}
-                \item {Integrating with Line BOT using \textbf{Python Line Bot SDK and Flask}.}
-                \item {Create an engaging storyline or narrative that enhances user interaction and exploration of the Central Campus.}
-            \resumeItemListEnd
 
-        \vspace{-2.0mm}
 
         \resumeSubheading
-            { ChatterJudge: Online Judge with the virtual TA} 
+            { Chatter Judge: Online Judge with the virtual TA} 
             {
-            \href{https://github.com/1chooo/bear-bear}{\faGithub\ BearBear You} 
+                \href{https://github.com/1chooo/chatter-judge}{\faGithub\ Chatter Judge} 
+                |
+                \href{https://1chooo.github.io/chatter-judge/}{\textcolor{black}{\faDesktop}\ Docs} 
             } %Project Name
             {Fullstack Developer, FastAPI, Gradio, Docker}%Project Name
             % {Website developer team for the incoming freshmen admitting to NCU.} %Project Name, Location Name
@@ -460,8 +456,8 @@
     \vspace{1.0mm}
 
     \begin{itemize}[leftmargin=0.15in, label={-}, itemsep=-2pt, topsep=0pt]
-        \item \textbf{Programming Languages}: Python, Go, c/c++, Java, JavaScripts, LaTex.
-        \item \textbf{Libraries/Frameworks}: Langchain, Keras, Tensorflow, Scikit-learn, ReactJS, Numpy, Pandas, etc.
+        \item \textbf{Programming Languages}: Python, Go, c/c++, Java, TypeScripts, JavaScripts, LaTex.
+        \item \textbf{Libraries/Frameworks}: Langchain, Keras, Tensorflow, Scikit-learn, React, Numpy, Pandas, etc.
         \item \textbf{Machine Learning/Deep Learning}: Classification(Random Forest, KNN, SVM), CNN
         \item \textbf{DevOps}: AWS, Git, Docker, Bash, Linux, GitHub Action, GitLab, etc.
         % \item \textbf{Communication}: English, Mandarin(Native).

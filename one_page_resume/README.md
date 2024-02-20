@@ -67,5 +67,13 @@ APP UI/UX developer, Marketing Support
 - Lead 5 members Team to develop a cross-platform APP for NCU students.
 - Guided team in Figma for collaborative style template design.
 
+### NCUAS Basketball Team (Co-captain)
+
+Aug. 2022 - Jun. 2023
+
+- Basketball Team Co-captain in my department, Dept. ATM, NCU.
+
 
 ## Selected Projects
+
+### 1chooo Jarvis: Daily workflow tracker with LINE BOT, AWS, LLM.
