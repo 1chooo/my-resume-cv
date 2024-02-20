@@ -40,14 +40,23 @@ Smart Robot, Smart World 🦾: Prompt-based Learning for manipulating with the V
 
 ## Community & Leadership
 
+
+### Second place, 2023 Weather Hackathon
+
+May. 2023 - Aug. 2023
+
+###### Software Developer, Data Collecting, Model Training
+- Lead a team of 5 members to design the system with feedback response times of less than 3 seconds, ensuring users receive recognition information promptly, and accommodate over 100 concurrent users on launch day.
+- Identifies PET bottles, aluminum foil packaging, and paper utensils with an accuracy of 95% using a dataset of over 6,000 images.
+- Create a user photo recycling feedback mechanism to sustainably contribute to global development, integrated into a carbon footprint calculation platform.
+
 ### NCUFresh: Provide freshmen a preview of diverse university life! 
 Dec. 2021 - Jul. 2022
 
 ###### Website UI/UX developer, Marketing Support
 
-- Curated 50 articles across fun, talk, life, and story themes.
-- Achieved an average of 1,000 views per article within the first month.
-- Frontend skills: Vue.js, UI/UX, Figma.
+- Curated 50+ articles across various themes including fun, talk, life, and storytelling for the blog page, integrated the Notion API with Vue.js, and achieved an average of 1,000+ views per article within the first month.
+
 
 ### NCUApp: Hope to make National Central University great again! 
 
