@@ -15,7 +15,7 @@ Sep. 2020 — Jun. 2024
 
 💻 Minor Specialty: Computer Science & Information Engineering
 
-💻 Relevant Courses: The Attack and Defense of Computers, Linux And Edge Computing, Principles of Programming Languages, Computer Network, Algorithmics, Data Structures, Assembly Language and System Programming, Degital Design, Weather and Artificial Intelligence, Numerical Analysis.
+💻 Relevant Courses: The Attack and Defense of Computers (PhD), Software Engineering (PhD), Object-Oriented Analysis and Design (PhD), Linux And Edge Computing, Principles of Programming Languages, Computer Network, Algorithmics, Data Structures, Assembly Language and System Programming, Degital Design, Weather and Artificial Intelligence, Numerical Analysis.
 
 ## Professional Experience
 
