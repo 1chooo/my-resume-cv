@@ -1,0 +1,87 @@
+% Project:  TeX Cover Letter Template
+% Author:   Sid Lacy
+
+% EDIT info.tex, body.tex
+    
+\documentclass[12pt]{letter}
+% \documentclass[UTF8]{ctexart}
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\usepackage{eso-pic}
+\usepackage{charter}
+
+
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+\definecolor{gr}{RGB}{225,225,225}
+
+\input{info}
+
+\begin{document}
+
+% Shaded header banner
+% \AddToShipoutPictureBG{%
+% \color{gr}
+% \AtPageUpperLeft{\rule[-1.3in]{\paperwidth}{1.3in}}
+% }
+
+\vspace{-4.0mm}
+
+% Header
+\begin{center}
+{\fontsize{28}{0}\selectfont\scshape \myname}
+
+\vspace{-1.0mm}
+
+\href{mailto:\myemail}{\faEnvelope\enspace \myemail}\hfill
+\href{https://www.linkedin.com/in/1chooo/}{\faLinkedinIn\enspace Hugo ChunHo Lin}\hfill
+\href{tel:\myphone}{\faPhone\enspace \myphone}\hfill
+\href{https://github.com/1chooo}{\faGithub\enspace 1chooo}
+% \href{https://1chooo-github-io.vercel.app/}{\faGlobe Portfolio}
+\end{center}
+
+% \href{https://github.com/1chooo}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {1chooo}
+% \href{https://www.linkedin.com/in/1chooo/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {Hugo ChunHo Lin}
+
+\vspace{0.2in}
+
+\vspace{-5.0mm}
+
+% Opening block
+\today\\
+% March 9, 2023\\
+\vspace{-4.0mm}
+
+% \vspace{-0.1in}\recipient\\
+% \company\\
+% \street\\
+% \city, \state\ \zip\\
+
+\vspace{-0.1in}\greeting\ \company  \recipient\ \commited,\\
+
+\vspace{-4.0mm}
+
+% Body
+\vspace{-0.1in}\setlength\parindent{24pt}
+\noindent\input{body}
+
+% Closer
+\vspace{0.1in}
+\vfill
+
+\begin{flushright}
+\closer,
+
+\vspace{-0.1in}\includegraphics[width=1.5in]{sig.png}\vspace{-0.1in}
+
+\myname\\
+\mytitle
+\end{flushright}
+
+% \attachment[header=true]{\en{Motivational letter}\de{Motivationsschreiben}}
+% \input{momotivation/motivation}
+
+\end{document}
